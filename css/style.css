@@ -2,8 +2,12 @@
     /* background-color: green; */
     border: 1px dashed orange;
 }
-main [class*="container"]:nth-child(odd) {
+main [class*="bg"]:nth-child(odd) {
     background-color: aquamarine;
+    color: white;
+}
+.height-50 {
+    height: 50px;
 }
 .height-100 {
     height: 100px;
