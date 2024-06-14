@@ -5,6 +5,9 @@
 main [class*="container"]:nth-child(odd) {
     background-color: aquamarine;
 }
+.height-100 {
+    height: 100px;
+}
 .height-150 {
     height: 150px;
 }
