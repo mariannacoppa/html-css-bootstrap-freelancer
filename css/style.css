@@ -24,6 +24,31 @@ header, footer {
 .height-150 {
     height: 150px;
 }
+.height-250 {
+    height: 250px;
+}
 .height-300 {
     height: 300px;
+}
+#a {
+    background-color: #BA4B63;
+}
+#b {
+    background-color: #1EA4B6;
+}
+#c {
+    background-color: black;
+}
+#d {
+    background-color: #1C83C1;
+}
+#e {
+    background-color: #0E38B5;
+}
+#f {
+    background-color: #CCB2A3;
+}
+.cards [class*="col"] {
+    border: 10px solid white;
+    border-radius: 20px;
 }
