@@ -2,8 +2,17 @@
     /* background-color: green; */
     border: 1px dashed orange;
 }
+header .bg, footer .bg:last-of-type {
+    background-color: #2C3E50;
+}
 main [class*="bg"]:nth-child(odd) {
-    background-color: aquamarine;
+    background-color: #1ABC9C;
+    color: white;
+}
+footer .bg:first-of-type {
+    background-color: #3A546D;
+}
+header, footer {
     color: white;
 }
 .height-50 {
