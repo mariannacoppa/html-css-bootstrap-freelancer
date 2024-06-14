@@ -1,0 +1,13 @@
+[class*="col"] {
+    /* background-color: green; */
+    border: 1px dashed orange;
+}
+main [class*="container"]:nth-child(odd) {
+    background-color: aquamarine;
+}
+.height-150 {
+    height: 150px;
+}
+.height-300 {
+    height: 300px;
+}
