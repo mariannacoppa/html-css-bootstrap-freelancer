@@ -44,6 +44,20 @@ hr {
 }
 footer {
     color: white;
+    font-size: 10px;
+}
+footer i {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+footer a {
+    color: rgb(2, 169, 2);
+    text-decoration: none;
+}
+.fa-facebook-f {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .height-50 {
     height: 50px;
