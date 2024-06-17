@@ -1,7 +1,6 @@
-/* [class*="col"] {
-    background-color: green;
-    border: 1px dashed orange;
-} */
+[src*="avatar"] {
+    width: 200px;
+}
 header .bg, footer .bg:last-of-type {
     background-color: #2C3E50;
 }
@@ -12,7 +11,25 @@ main [class*="bg"]:nth-child(odd) {
 footer .bg:first-of-type {
     background-color: #3A546D;
 }
-header li, footer {
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+.content {
+    text-align: center;
+}
+.lines {
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+hr {
+    width: 100px;
+    height: 3px;
+}
+footer {
     color: white;
 }
 .height-50 {
