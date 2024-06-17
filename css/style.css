@@ -35,6 +35,13 @@ hr {
     width: 100px;
     height: 3px;
 }
+.download {
+    color: white;
+    background-color: #1ABC9C;
+}
+.btn.form {
+    background-color: #1ABC9C;
+}
 footer {
     color: white;
 }
@@ -53,24 +60,7 @@ footer {
 .height-300 {
     height: 300px;
 }
-/*#a {
-    background-color: #BA4B63;
-}
-#b {
-    background-color: #1EA4B6;
-}
-#c {
-    background-color: black;
-}
-#d {
-    background-color: #1C83C1;
-}
-#e {
-    background-color: #0E38B5;
-}
-#f {
-    background-color: #CCB2A3;
-}*/
+
 .cards [class*="col"] {
     border: 10px solid white;
     border-radius: 20px;
