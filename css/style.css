@@ -1,7 +1,7 @@
-[class*="col"] {
-    /* background-color: green; */
+/* [class*="col"] {
+    background-color: green;
     border: 1px dashed orange;
-}
+} */
 header .bg, footer .bg:last-of-type {
     background-color: #2C3E50;
 }
@@ -12,7 +12,7 @@ main [class*="bg"]:nth-child(odd) {
 footer .bg:first-of-type {
     background-color: #3A546D;
 }
-header, footer {
+header li, footer {
     color: white;
 }
 .height-50 {
