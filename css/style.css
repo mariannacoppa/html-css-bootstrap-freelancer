@@ -38,7 +38,7 @@ hr {
 .btn.form {
     background-color: #1ABC9C;
 }
-input {
+.form-control {
     border: none;
     border-bottom: 2px solid grey;
 }
