@@ -4,7 +4,7 @@
 header .bg, footer .bg:last-of-type {
     background-color: #2C3E50;
 }
-main [class*="bg"]:nth-child(odd) {
+main [class*="bg"]:nth-child(odd), .download {
     background-color: #1ABC9C;
     color: white;
 }
@@ -35,12 +35,12 @@ hr {
     width: 100px;
     height: 3px;
 }
-.download {
-    color: white;
-    background-color: #1ABC9C;
-}
 .btn.form {
     background-color: #1ABC9C;
+}
+input {
+    border: none;
+    border-bottom: 2px solid grey;
 }
 footer {
     color: white;
